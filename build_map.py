@@ -42,7 +42,3 @@ def is_valid_map(key):
     if len(key.items()) != len(key.keys()) :
         return False
     return True
-
-if __name__ == "__main__" :
-    infile = "test1.txt"
-    build_map(infile)
